@@ -1,4 +1,6 @@
 """ A sample module"""
+
+
 class MyClass:
     """ A sample class"""
 
@@ -12,10 +14,11 @@ class MyClass:
     def setName(self, name):
         self.name = name
 
+
 a = MyClass()
 a.setName("Tanaka")
 
 print(a.getName())
 
-print (MyClass.__doc__)
-print (MyClass.getName.__doc__)
+print(MyClass.__doc__)
+print(MyClass.getName.__doc__)
