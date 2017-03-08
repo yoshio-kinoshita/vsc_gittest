@@ -9,7 +9,6 @@ elif a == 4:
 else:
     print("else")
 
-
 c = ["a", "b", "c"]
 
 print(len(c))
