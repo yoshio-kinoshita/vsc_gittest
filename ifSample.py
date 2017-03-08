@@ -8,3 +8,8 @@ elif a == 4:
     print("a is 4")
 else:
     print("else")
+
+
+c = ["a", "b", "c"]
+
+print(len(c))
