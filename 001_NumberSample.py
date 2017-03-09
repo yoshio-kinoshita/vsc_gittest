@@ -12,3 +12,15 @@ print(8 / 5)
 print(17 / 3)
 
 print(17 // 3)
+
+# squared
+print(5 ** 2)
+print(2 ** 7)
+
+width = 20
+heigth = 5 * 9
+print(width * heigth)
+
+# try to access an undefined variable
+# print(n)
+
