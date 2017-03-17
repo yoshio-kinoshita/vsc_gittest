@@ -19,3 +19,8 @@ cubes.append(7 ** 3)
 
 print(cubes)
 
+
+for n in range(2,10):
+    for x in range(2, ):
+        if n % x == 0:
+            print(n, 'equals')
