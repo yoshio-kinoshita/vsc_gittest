@@ -1,16 +1,16 @@
 # if 文
 
-x = int(input("Please enter an integer:"))
+# x = int(input("Please enter an integer:"))
 
-if x < 0:
-    x = 0
-    print('Nagetive changed to Zero')
-elif x == 0:
-    print('Zero')
-elif x == 1:
-    print('Single')
-else:
-    print('More')
+# if x < 0:
+#     x = 0
+#     print('Nagetive changed to Zero')
+# elif x == 0:
+#     print('Zero')
+# elif x == 1:
+#     print('Single')
+# else:
+#     print('More')
 
 # for 文
 words = ['cat', 'window', 'defenestrate']
@@ -41,3 +41,14 @@ for i in range(len(a)):
 
 print(range(10))
 print(list(range(10)))
+
+print(list(range(2, 2)))
+print(list(range(3, 4)))
+
+for n in range(2, 10):
+    for x in range(2, n):
+        if n % x == 0:
+            print(n, 'equals', x, '*', n//x)
+            break
+        else:
+            print(n, 'is a prime number')
