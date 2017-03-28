@@ -26,4 +26,24 @@ class Perceptron(object):
 
     
     def fit(self, x, y):
+
         """ トレーニングデータに適合させる
+
+        パラメータ
+
+        ---------
+
+        x : {配列のようなデータ構造}, shape = [n_samples, n_features]
+            トレーニングデータ
+
+            n_sampleはサンプルの個数、n_featureは特微量の個数
+
+        y : 配列のようなデータ構造, shape = [n_samples]
+            目的変数
+
+         戻り値
+
+         -----------
+
+         self : object
+
