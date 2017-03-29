@@ -392,3 +392,36 @@ SqlServer 2012
 ### 体制
 導入１名～３名
 開発１名～５名
+
+## テクニカルスキル
+
+### OS
+Linux(RedHut)
+Windows Server 2008 R2, 2012
+
+### 言語
+Java
+JavaScript
+Php
+Python
+Html5
+Css3
+Bash
+
+### フレームワーク
+Struts1, 2
+Spring3
+Hibernate
+iBatis
+
+### DB
+Oracle 11g
+SqlServer 2008, 2012
+MySql
+PostgreSQL
+
+### その他
+Apache
+Tomcat
+IIS
+nginx
